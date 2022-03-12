@@ -847,7 +847,6 @@ class FirstPersonCameraDemo {
 let _APP = null;
 
 window.addEventListener('DOMContentLoaded', () => {
-  console.log("start");
   const _Setup = () => {
     _APP = new FirstPersonCameraDemo();
     document.body.removeEventListener('click', _Setup);
